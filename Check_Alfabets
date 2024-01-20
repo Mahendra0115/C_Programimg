@@ -1,0 +1,21 @@
+
+
+#include<stdio.h>
+int main(){
+    
+    char  alpha;
+    
+    printf("entr the character: ");
+    scanf("%c", & alpha);
+    
+    // printf("entr the character: ");
+    // scanf("%d",&num);
+    
+    if (alpha >= 'A' && alpha<='Z'){
+        printf(" This is upper case character ");
+    }else{
+        printf("this is  lower case character");
+    }
+}
+
+
